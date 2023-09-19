@@ -78,13 +78,13 @@ function Projectpagebody() {
           {onlyReactProject.map((data: Project_data, index: any) =>
             data.Type === "React Native" ? (
               <Projectcard_Mobile
-                key={data.title + data.video_key + data.project_image}
+                key={data.title + data.projectKey + data.project_image}
                 index={index}
                 data={data}
               />
             ) : (
               <Projectcard_Web
-                key={data.title + data.video_key + data.project_image}
+                key={data.title + data.projectKey + data.project_image}
                 index={index}
                 data={data}
               />

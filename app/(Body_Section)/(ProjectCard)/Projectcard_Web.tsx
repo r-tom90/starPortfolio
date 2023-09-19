@@ -39,7 +39,7 @@ function Projectcard_Web({ data, index }: Props) {
               className="rounded "
             />
           </div>
-          <Link href={`/Project/${data.video_key}`}>
+          <Link href={`/Project/${data.projectKey}`}>
             <div className="w-full h-auto mt-[10px] text-white flex felx-row items-center justify-between ">
               <span className=" font-bold text-[18px] ">{data.title}</span>
             </div>
@@ -54,7 +54,7 @@ function Projectcard_Web({ data, index }: Props) {
         </div>
       </div>
       <Link
-        href={`/Project/${data.video_key}`}
+        href={`/Project/${data.projectKey}`}
         key={data.title}
         className="w-auto h-auto mb-[20px] 840:mb-0 flex  1300:hidden   "
       >

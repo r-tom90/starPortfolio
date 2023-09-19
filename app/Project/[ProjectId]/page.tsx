@@ -8,14 +8,13 @@ type Props = {
   params: {
     ProjectId: string;
   };
- 
 };
-function page({ params: { ProjectId } }: Props  ) {
+function page({ params: { ProjectId } }: Props) {
   const Single_data: Project_data | any = Project?.filter(
-    (data: Project_data) => data.video_key === ProjectId
+    (data: Project_data) => data.projectKey === ProjectId
   );
   return (
-    <div className="w-full h-screen m-auto pt-[62px] flex flex-col items-center justify-start ">
+    <div className="w-full h-full m-auto pt-[62px] flex flex-col items-center justify-start ">
       <div className=" w-full 1250:w-[1210px] min-h-[70px] flex flex-row items-center justify-start px-[10px] 600:px-[15px] 1250:px-0">
         <Link
           href={"/"}
@@ -32,4 +31,3 @@ function page({ params: { ProjectId } }: Props  ) {
 }
 
 export default page;
-

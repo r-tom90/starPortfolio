@@ -32,10 +32,10 @@ function Footer() {
   return (
     <div
       id="Footer"
-      className="w-full h-auto bg-[black]/50 backdrop-blur-md  text-gray-200 shadow-lg shadow-[black]/90 p-[15px] 630:p-0"
+      className="w-full h-auto bg-[black]/50 backdrop-blur-md text-gray-200 shadow-lg shadow-[black]/90 p-[15px] 630:p-0"
     >
       <div className=" w-full 1000:w-[1000px] h-auto 630:h-[100px] flex flex-col items-center  justify-center m-auto">
-        <div className="flex flex-col 420:flex-row mb-[20px] text-[15px] text-center space-x-0 420:space-x-4">
+        <div className="flex flex-col 420:flex-row text-[15px] text-center space-x-0 420:space-x-4">
           <p>
             &copy; {new Date().getFullYear()} Richard Tom. All rights reserved.
           </p>

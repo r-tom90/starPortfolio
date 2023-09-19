@@ -30,14 +30,30 @@ function Project_blog({ Single_data }: Props) {
     );
   };
 
-  console.log(Single_data[0].video_key, "Single_data.video_key");
+  console.log(Single_data[0].projectKey, "Single_data.projectKey");
 
   return (
     <div className=" w-full 800:w-[800px] h-auto flex flex-col  items-start justify-start px-[10px] 600:px-[15px] 800::px-0  ">
-      <div className=" font-bold text-[25px] text-slate-200 ">
+      <div className=" font-bold text-[25px] text-slate-200 mb-4">
         {Single_data[0].title}
       </div>
-      <Project_video ifreamload={ifreamload} src={Single_data[0].video_key} />
+      {/* TODO: Add Image Carousel */}
+      {Single_data[0].projectKey !== Single_data[0].project_image ? (
+        <div className="relative overflow-hidden w-full frc justify-center pt-[56.25%] m-auto rounded-0 600:rounded-[8px]">
+          <Image
+            src={Single_data[0].project_image}
+            width={1920}
+            height={1080}
+            alt="image"
+            className="absolute inset-0 h-full w-full"
+          />
+        </div>
+      ) : (
+        <Project_video
+          ifreamload={ifreamload}
+          src={Single_data[0].projectKey}
+        />
+      )}
       <h2 className=" font-bold text-slate-200 text-[23px] mt-[15px] ">
         Technology & Feature
       </h2>
@@ -158,7 +174,6 @@ function Project_blog({ Single_data }: Props) {
           Projects
         </span>
       </Link>
-      <div className="w-full h-auto pb-[100px] "></div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ interface Skill_data {
 
 interface Project_data {
   title: string;
-  video_key: string;
+  projectKey: string;
   technology_feature: string[];
   about_this_app: string;
   package: string[];

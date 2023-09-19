@@ -110,7 +110,7 @@ function Projectcard_Mobile({ data, index }: Props) {
             </div>
           ))}
         </div>
-        <Link href={`/Project/${data.video_key}`}>
+        <Link href={`/Project/${data.projectKey}`}>
           <div className="w-full h-auto mt-[10px] text-white ">
             <span className=" font-bold text-[18px] ">{data.title}</span>
           </div>

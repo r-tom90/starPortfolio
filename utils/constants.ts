@@ -180,7 +180,7 @@ export const Skill_data: Skill_data[] = [
 export const Project: Project_data[] = [
   {
     title: "Modern NextJS 13 Portfolio",
-    video_key: "HvkrAjHJ-38",
+    projectKey: "mNjs13P",
     technology_feature: [
       "TypeScript",
       "React",
@@ -215,7 +215,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "OT Health Coach",
-    video_key: "",
+    projectKey: "otHC",
     technology_feature: ["TypeScript", "React", "Tailwind"],
     about_this_app:
       "A stunning and refined landing page for a health coach, complete with a seamless contact form for effortless communication.",
@@ -238,7 +238,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "MuskATears",
-    video_key: "",
+    projectKey: "muskATears",
     technology_feature: [
       "JavaScript",
       "React",
@@ -264,7 +264,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "MuskATears NFT Emporium",
-    video_key: "",
+    projectKey: "muskATearsNE",
     technology_feature: [
       "JavaScript",
       "React",
@@ -302,7 +302,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "3D Portfolio",
-    video_key: "",
+    projectKey: "3dP",
     technology_feature: [
       "JavaScript",
       "React",
@@ -337,7 +337,7 @@ export const Project: Project_data[] = [
   },
   {
     title: "RichEtherscan",
-    video_key: "",
+    projectKey: "rEScan",
     technology_feature: ["JavaScript", "React", "Tailwind"],
     about_this_app:
       "Discover RichEtherscan, a feature-rich platform that provides a user-friendly interface and leverages advanced data retrieval from the Ethereum blockchain. With the Alchemy network API, users can effortlessly explore block, transaction, and address history on the Ethereum network. Experience the power of RichEtherscan and delve into the depths of the Ethereum blockchain with ease.",
@@ -369,7 +369,7 @@ export const Project: Project_data[] = [
   },
   // {
   //   title: "AdminDashboard Web app",
-  //   video_key: "yF1oJ7wzvWY",
+  //   projectKey: "yF1oJ7wzvWY",
   //   technology_feature: [
   //     "Tailwind",
   //     "React",
@@ -424,7 +424,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "Deliveroo Mobile App",
-  //   video_key: "AxQ_Eli8gtk",
+  //   projectKey: "AxQ_Eli8gtk",
   //   technology_feature: [
   //     "Tailwind",
   //     "React Native",
@@ -477,7 +477,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "FullStackFood Order Website",
-  //   video_key: "yF1oJ7wzvWY",
+  //   projectKey: "yF1oJ7wzvWY",
   //   technology_feature: [
   //     "Tailwind",
   //     "React",
@@ -533,7 +533,7 @@ export const Project: Project_data[] = [
 
   // {
   //   title: "Fullstack AI ChatGPT ( Clone ) ",
-  //   video_key: "R90bxY4UwPg",
+  //   projectKey: "R90bxY4UwPg",
   //   technology_feature: [
   //     "html",
   //     "css",
@@ -573,7 +573,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "Nike AdminDashboard Web App ",
-  //   video_key: "v3LJMcWbcDQ",
+  //   projectKey: "v3LJMcWbcDQ",
   //   technology_feature: [
   //     "Tailwind",
   //     "React",
@@ -627,7 +627,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "ApexLegnds.com ( Clone )",
-  //   video_key: "IqYbA6ZZ-e4",
+  //   projectKey: "IqYbA6ZZ-e4",
   //   technology_feature: [
   //     "html",
   //     "css",
@@ -662,7 +662,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "Full Stack SocalMedia ",
-  //   video_key: "cLKsNVSyPMM",
+  //   projectKey: "cLKsNVSyPMM",
   //   technology_feature: [
   //     "html",
   //     "css",
@@ -707,7 +707,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "Profiol Server",
-  //   video_key: "",
+  //   projectKey: "",
   //   technology_feature: ["Golang", "Gin", "Mongo db", "JWT"],
   //   about_this_app: "",
   //   package: [],
@@ -724,7 +724,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "ShoeEcommerce Server",
-  //   video_key: "",
+  //   projectKey: "",
   //   technology_feature: [
   //     "Node js",
   //     "Express js",
@@ -749,7 +749,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "FoodOrder & AdminDashboard",
-  //   video_key: "",
+  //   projectKey: "",
   //   technology_feature: [
   //     "Node js",
   //     "Express js",
@@ -775,7 +775,7 @@ export const Project: Project_data[] = [
   // },
   // {
   //   title: "Deliveroo Server",
-  //   video_key: "",
+  //   projectKey: "",
   //   technology_feature: [
   //     "Node js",
   //     "Express js",
@@ -803,7 +803,7 @@ export const Project: Project_data[] = [
 /* //? Portfolio Structure  
   {
     title: "",
-    video_key: "",
+    projectKey: "",
     technology_feature: [],
     about_this_app: "",
     package: [],
